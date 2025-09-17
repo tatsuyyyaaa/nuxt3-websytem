@@ -11,9 +11,9 @@
 
       <v-list density="compact" nav>
         <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard" to = "/"></v-list-item>
-        <v-list-item prepend-icon="mdi-invoice-list" title="Inventory" value="items" to = "/" inventory ></v-list-item>
-        <v-list-item prepend-icon="mdi-shape" title="Categories" value="category" to = "/"></v-list-item>
-        <v-list-item prepend-icon="mdi-cart-arrow-down" title="Suppliers" value="supply" to = "/"></v-list-item>
+        <v-list-item prepend-icon="mdi-invoice-list" title="Inventory" value="item" to = "/inventory"></v-list-item>
+        <v-list-item prepend-icon="mdi-shape" title="Categories" value="category" to = "/categories"></v-list-item>
+        <v-list-item prepend-icon="mdi-cart-arrow-down" title="Suppliers" value="supply" to = "/suppliers"></v-list-item>
 
       </v-list>
     </v-navigation-drawer>
