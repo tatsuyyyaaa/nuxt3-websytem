@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model= "drawer" >
+    <v-navigation-drawer v-model= "drawer" color="blue" >
     
       <v-list>
         <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" subtitle="sandra_a88@gmailcom"
@@ -10,7 +10,7 @@
       <v-divider></v-divider>
 
       <v-list density="compact" nav>
-        <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard" to = "/"></v-list-item>
+        <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard" to = "/dashboard"></v-list-item>
         <v-list-item prepend-icon="mdi-invoice-list" title="Inventory" value="item" to = "/inventory"></v-list-item>
         <v-list-item prepend-icon="mdi-shape" title="Categories" value="category" to = "/categories"></v-list-item>
         <v-list-item prepend-icon="mdi-cart-arrow-down" title="Suppliers" value="supply" to = "/suppliers"></v-list-item>
