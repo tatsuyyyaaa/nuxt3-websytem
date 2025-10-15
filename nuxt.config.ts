@@ -20,4 +20,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public:{
+      baseUrl: process.env.STRAPI_BASE_URL,
+    }
+  }
 })
