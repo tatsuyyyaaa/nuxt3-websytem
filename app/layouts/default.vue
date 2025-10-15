@@ -3,14 +3,14 @@
     <v-navigation-drawer v-model= "drawer" color="blue" >
     
       <v-list>
-        <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" subtitle="sandra_a88@gmailcom"
-          title="Sandra Adams"></v-list-item>
+        <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" subtitle="mmanansala266@gmail.com"
+          title="Mark Manansala"></v-list-item>
       </v-list>
 
       <v-divider></v-divider>
 
       <v-list density="compact" nav>
-        <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard" to = "/dashboard"></v-list-item>
+        <v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard" value="dashboard" to = "/dashboard" ></v-list-item>
         <v-list-item prepend-icon="mdi-invoice-list" title="Inventory" value="item" to = "/inventory"></v-list-item>
         <v-list-item prepend-icon="mdi-shape" title="Categories" value="category" to = "/categories"></v-list-item>
         <v-list-item prepend-icon="mdi-cart-arrow-down" title="Suppliers" value="supply" to = "/suppliers"></v-list-item>
