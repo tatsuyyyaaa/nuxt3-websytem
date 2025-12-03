@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model= "drawer" color="blue" >
     
       <v-list>
-        <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg" subtitle="mmanansala266@gmail.com"
+        <v-list-item prepend-avatar="https://cdn.kami.com.ph/images/1120/0fgjhs39o5t36qk2eg.jpeg?v=1" subtitle="mmanansala266@gmail.com"
           title="Mark Manansala"></v-list-item>
       </v-list>
 
